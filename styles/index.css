@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1680px;
+    margin:0 auto;
+}
+.header_bg{
+    background-image: url(/img/Vector\ 24.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+
+}
+.header_nav_nav ul{
+    display: flex;
+    gap: 80px;
+}
+.header_nav_nav ul li{
+    list-style-type: none;
+
+}
+.header_nav_nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header_nav{
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+.header_nav_search{
+    align-items: baseline;
+    gap: 80px;
+    margin-left: 300px;
+}
+.header_nav_search ion-icon{
+    color: white;
+}
+.header_nav_search a{
+    color: white;
+    text-decoration: none;
+}
+.header_nav_search_last{
+    border: 1px solid #C5E1E6;
+    border-radius: 100px;
+    padding: 5px;
+}
+.header_hero_text_button{
+    color: #0D444D;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+    border-radius: 100px;
+    padding: 14px 84px;
+    margin-top: 87px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header_hero_text p{
+    margin-top: 87px;
+    margin-bottom: 87px;
+}
+.header_hero_text{
+    max-width: 650px;
+    color: white;
+}
+.header_hero_container{
+    display: flex;
+}
+.index_img{
+    max-width: 1440px;
+}
+.sectio_container{
+    margin-top: 100px;
+}
